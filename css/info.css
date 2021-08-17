@@ -1,0 +1,18 @@
+.info {
+    padding: 5rem 0;
+}
+@media screen and (min-width: 1440px)  {
+   .info__block {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   }
+   .info .img {
+       margin: 0;
+       margin-left: 8rem;
+   }
+   .info .text {
+       margin: 0;
+       text-align: right;
+   }
+}

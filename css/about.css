@@ -1,0 +1,21 @@
+.about {
+    padding: 5rem 0;
+}
+.about .img {
+    margin-bottom: 3rem;
+}
+@media screen and (min-width: 1440px)  {
+   .about__block {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   }
+   .about .img {
+    margin: 0;
+    margin-right: 8rem;
+  }
+  .about .text {
+      margin: 0;
+      text-align: left;
+  }
+}
